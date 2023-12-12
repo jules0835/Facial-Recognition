@@ -1,4 +1,5 @@
 # Facial-Recognition
+Simple facial recognition security system implemented in Python.
 
 ## Unstable version.
 ## Project under development, currently available only on Mac.
