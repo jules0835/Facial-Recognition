@@ -63,7 +63,6 @@ def check_last_reco(name):
     log_record = open("log.txt", "r")
     current_logs = log_record.readlines()
     log_record.close()
-    print("Checking last reco2")
     print("name : " + name)
     for line in current_logs:
         if name in line:
@@ -76,7 +75,6 @@ def check_last_reco(name):
 
 
 def action_if_reco(ref_image):
-    print("Face recognized")
     global face_name
     matching_image_name = os.path.basename(ref_image)
     matching_image_name = os.path.splitext(matching_image_name)[0]
