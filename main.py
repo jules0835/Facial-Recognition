@@ -17,7 +17,7 @@ cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 480)
 
 counter = 0
 face_match = False
-face_name = "pas modifié"
+face_name = ""
 reference_faces_folder = 'faces'
 reference_faces = [os.path.join(reference_faces_folder, f) for f in os.listdir(
     reference_faces_folder) if f.endswith(('.jpg', '.png', '.jpeg'))]
