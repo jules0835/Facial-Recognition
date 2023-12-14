@@ -17,6 +17,7 @@ Make sure you have the following libraries installed before running the code:
 - [OpenCV](https://pypi.org/project/opencv-python/): `pip install opencv-python`
 - [DeepFace](https://pypi.org/project/deepface/): `pip install deepface`
 - [Requests](https://pypi.org/project/requests/): `pip install requests`
+- [Tkinter](https://docs.python.org/3/library/tkinter.html): `pip install tk`
 
 ## Setup
 
